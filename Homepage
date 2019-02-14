@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.New Breed Ink</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+.mySlides {display:none}
+</style>
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <a href="#booking" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Booking & Enquiries</a>
+    <a href="#designs" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Designs</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="Tattoo Artists">More <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="alex new.html" class="w3-bar-item w3-button">Alexander</a>
+        <a href="iron new.html" class="w3-bar-item w3-button">Iron Desk</a>
+        <a href="nakway.html" class="w3-bar-item w3-button">Nakway</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#About" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#Booking & Enquiries" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Booking & Enquiries</a>
+  <a href="#Designs" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Design</a>
+  <a href="#Home " class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+<img src="https://images.pexels.com/photos/955938/pexels-photo-955938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:390px;height:200px;">
+<img src="https://images.pexels.com/photos/194074/pexels-photo-194074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"style="width:400px;height:200px;">
+<img src="https://images.pexels.com/photos/248387/pexels-photo-248387.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"style="width:390px;height:200px;">
+<img src="https://images.pexels.com/photos/428105/pexels-photo-428105.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"style="width:390px;height:200px;">
+
+<h1 class="w3-wide"><center>New Breed Ink</h1></center>
+
+ <!-- About -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide">About Us</h2>
+    <p class="w3-opacity"><i>New Breed Ink</i></p>
+    <p class="w3-justify">An up and coming tattoo shop in west London that is a friendly, comfortable and sanitary environment, including a waiting area and private rooms for each customer. We are a custom tattoos studio based in London. Here you 
+can get your first tattoo as well as your hundredth. Every person has their own unique style. Our artists take body art very seriously as it is something they will be doing for life and which you will wear for life! Our artists have the skills and experience to provide you with quality artwork that will fulfil all expectations and stand the test of time.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="https://www.hammersmithtattoo.co.uk/usr/jamie_shop_managers.jpg" class="w3-round w3-margin-bottom" alt="View of inside" style="width:60%">
+      <p>The managers</p>
+	</div>
+      <div class="w3-third">
+        <img src="https://www.hammersmithtattoo.co.uk/usr/hammersmith_tattoo_shop_managers.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      <p>Inside view</p>
+      <br>
+
+	</div>
+        <p>Customers are encouraged to bring with them any referance material or ideas <br>they might have, we will take this and mix this with our own ideas and thoughts and have a design that’s hand drawn for you ready in time for your appointment.Anything you don’t like or any changes you require then our artist’s will be happy to rework the design until its perfect for you and exactly what you want.</p>
+       
+
+    </div>
+  </div>
+
+<!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="booking">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> New Breed Ink<br>3 North End Road, London<br>W14 8ST<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 020 7602 1086<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: info@newbreedink.co.uk<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+<!--Designs section-->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="designs">
+<h2 class="w3-wide w3-center">Designs</h2>
+<p>New Breed Ink is a one of a kind custom design tattoo shop based in the West part of London. We have artists who specialise in realistic portraits tattoos, photo realictic colour tattoos, old school tattoos, neo traditional tattoos, new school tattoos, dot work tattoos, script tattoos and black and grey tattoos. Artists offering high quality tattoos done to a professional standard. Prices for tattoos may be based on size, but also are based on how detailed the tattoo is. It's best call to the shop for more information.
+<b><font size="3"><br>Walk ins are welcome !!!</p></b></font>
+<div class="w3-container">
+
+
+<div class="w3-content" style="max-width:800px">
+  <img class="mySlides" src="id1.png" style="width:60%">
+  <img class="mySlides" src="id2.png" style="width:60%">
+  <img class="mySlides" src="id3.png" style="width:60%">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+  <!-- Book An Artist -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Book An Artist</h2>
+      
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="alexander.jpg" alt="Alexander" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Alexander</b></p>
+            <p class="w3-opacity">Tattoo Artist</p>
+            <p>Limited availibilty</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book Appointment</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="irondesk.jpg" alt="Iron Desk" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Iron Desk</b></p>
+            <p class="w3-opacity">Tattoo Artist/Piercer</p>
+            <p>Limited availibilty</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book Appointment</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="nwad.png" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Nakway</b></p>
+            <p class="w3-opacity">Tattoo Artist</p>
+            <p>Limited availibilty</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book Appointment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Appointment, £50 per hour</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Choose a date for your appointment">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">Submit <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">We'll respond if the selected artist is available</p>
+      </div>
+    </div>
+  </div>
+
+
+<--Alex's section-->
+
+
+
+
+</body>
+</html>
